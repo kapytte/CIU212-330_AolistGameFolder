@@ -109,3 +109,9 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Autosaves/
+Backup/
+Logs/
+Intermediate/
+DerivedDataCache/
