@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="MasterTagFolder" id="{6079963a-f594-4bb4-8c52-fb320015fe1a}">
+        <property name="name">
+            <value>Master</value>
+        </property>
+        <relationship name="items">
+            <destination>{1f40ffe8-0587-4d65-b3f2-20d715b2c3b2}</destination>
+        </relationship>
+    </object>
+    <object class="Tag" id="{1f40ffe8-0587-4d65-b3f2-20d715b2c3b2}">
+        <property name="name">
+            <value>Gravel</value>
+        </property>
+        <relationship name="folder">
+            <destination>{6079963a-f594-4bb4-8c52-fb320015fe1a}</destination>
+        </relationship>
+    </object>
+</objects>
