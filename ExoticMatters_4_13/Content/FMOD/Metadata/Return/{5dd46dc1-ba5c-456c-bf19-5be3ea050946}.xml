@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="MixerReturn" id="{5dd46dc1-ba5c-456c-bf19-5be3ea050946}">
+        <property name="name">
+            <value>Large Room</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{2d75bca8-ec0b-4723-82ba-8d6062285a67}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{1f1a691f-4ac7-44b1-9ee4-57510d7bd0d6}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{f5c0dc2b-812a-446e-90a9-d392064a165c}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{2d75bca8-ec0b-4723-82ba-8d6062285a67}">
+        <relationship name="effects">
+            <destination>{ed4029ac-7bf9-4a20-9e79-d85b02a01d71}</destination>
+            <destination>{df303fc3-b1b8-4105-b446-7d83525bde5c}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{1f1a691f-4ac7-44b1-9ee4-57510d7bd0d6}"/>
+    <object class="MixerBusFader" id="{ed4029ac-7bf9-4a20-9e79-d85b02a01d71}"/>
+    <object class="SFXReverbEffect" id="{df303fc3-b1b8-4105-b446-7d83525bde5c}"/>
+</objects>

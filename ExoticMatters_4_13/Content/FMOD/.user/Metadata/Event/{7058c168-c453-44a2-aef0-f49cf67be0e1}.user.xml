@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{7058c168-c453-44a2-aef0-f49cf67be0e1}">
         <relationship name="uiLastParameterSelection">
-            <destination>{2238e316-4914-4d27-89e3-709d26bb9a70}</destination>
+            <destination>{6ec4ffc4-f9d5-4216-9e83-4edbae9d8ecf}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{eb1acd41-3f0e-4523-a1b7-db8d42e7b6e4}"/>
@@ -23,7 +23,7 @@
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.00046317739694302917</value>
+            <value>0.00082034454470877774</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{6fbcb1ab-6144-4378-a9fc-31cfe0588560}">
@@ -67,6 +67,5 @@
     <object class="MixerBusPanner" id="{2a2d2fa7-e791-4b40-9404-dabbcb53ee8f}"/>
     <object class="MixerBusFader" id="{ca29ff5b-325a-4dca-99e0-69a1bab18a5f}"/>
     <object class="SpatialiserEffect" id="{d719b54d-546c-4d89-8e17-d60a554f3824}"/>
-    <object class="MixerSend" id="{04593648-f1a9-4b0d-8fb7-f8f9db424f64}"/>
     <object class="MixerBusFader" id="{d9724049-359f-4946-9abf-3988cd22188a}"/>
 </objects>

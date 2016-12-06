@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{079e4e1e-32ae-4fe3-8a18-03ce5ae0c8f8}">
-        <relationship name="selectables">
-            <destination>{5dc32093-70f0-4104-9f47-1da460f305c5}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{56c70d80-a50b-43db-bb20-5f5268e6a78e}</destination>
+            <destination>{82488157-7603-4de8-a9bd-f86de29bf82b}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{8ce82ec1-7335-4c2a-a13f-e6c8ec788163}"/>
@@ -18,18 +15,18 @@
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0029308697037273013</value>
+            <value>0.0045725646123260435</value>
         </property>
     </object>
     <object class="GameParameter" id="{82488157-7603-4de8-a9bd-f86de29bf82b}">
         <property name="cursorPosition">
-            <value>1</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.00053792361484669173</value>
+            <value>0.00049701789264413514</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>1221</value>
+            <value>12</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{ce2cc868-bfb1-4348-a563-07335c640e86}">
@@ -39,15 +36,27 @@
     </object>
     <object class="MixerBusEffectChain" id="{be5a5caa-7d3e-4406-8997-bda945d9a46c}"/>
     <object class="MixerBusPanner" id="{7fcef505-f98a-4462-81c3-2d91cb10cd8c}"/>
-    <object class="MultiSound" id="{363259be-7790-4c05-b967-98d44862acc1}"/>
-    <object class="MultiSound" id="{d6669a6a-db4a-4c89-8256-d751bd526350}"/>
+    <object class="MultiSound" id="{363259be-7790-4c05-b967-98d44862acc1}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{d6669a6a-db4a-4c89-8256-d751bd526350}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{fa1a1104-83bc-4302-913b-712d5d923d41}"/>
     <object class="LoopRegion" id="{d9b5413a-44fe-4a42-8700-86a0c90a7fc4}"/>
     <object class="MixerBusEffectChain" id="{d15f53bd-3fa2-4a14-9422-70e2926d6b02}"/>
     <object class="MixerBusPanner" id="{2494aa89-c757-4f20-a5a3-794c5f6f32be}"/>
     <object class="MixerBusFader" id="{7dd941f2-e571-4370-a9ae-9e97f1f5edd1}"/>
+    <object class="RandomizerModulator" id="{3a8199f2-77bb-4ce9-b09a-dbe2edd5e56b}"/>
+    <object class="RandomizerModulator" id="{9978a6ce-fb8a-4095-8ff5-ac16704ffa50}"/>
     <object class="SingleSound" id="{6632627b-6059-4e5a-a9c2-eb20f76a3192}"/>
     <object class="SingleSound" id="{fbc8e8c7-4f81-4e9f-89e3-0edf35885eed}"/>
+    <object class="RandomizerModulator" id="{d1abb20b-3c68-4c78-87ae-1416080f548b}"/>
+    <object class="RandomizerModulator" id="{5a9aafee-364e-4900-a784-4e04b08f8cb7}"/>
     <object class="SingleSound" id="{68312fda-c9f3-4ebb-98da-b3d2888b9997}"/>
     <object class="SingleSound" id="{4ec95397-95e3-4338-9a54-26a6b20f2844}"/>
     <object class="SingleSound" id="{974e633d-3829-4b3f-ad22-7f793f4227a5}"/>
@@ -55,7 +64,6 @@
     <object class="MixerBusPanner" id="{0b58d1ea-2366-47c0-a602-9ce3d156cdb0}"/>
     <object class="MixerBusFader" id="{497c048c-e913-4013-8b58-9a8447d23a2a}"/>
     <object class="SpatialiserEffect" id="{a2d44e5b-8a43-445b-a507-f40623c24a46}"/>
-    <object class="MixerSend" id="{a9b803ce-b1ae-4b9e-a0ff-a804f3a46ea3}"/>
     <object class="MixerBusFader" id="{75dfc259-f59f-4b66-8273-302dfb629406}"/>
     <object class="ThreeEQEffect" id="{531f9438-37c4-4a22-969b-03b3a3ff3150}"/>
 </objects>

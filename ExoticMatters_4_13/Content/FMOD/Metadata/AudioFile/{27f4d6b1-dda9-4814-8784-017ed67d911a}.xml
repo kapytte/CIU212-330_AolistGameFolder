@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{27f4d6b1-dda9-4814-8784-017ed67d911a}">
+        <property name="assetPath">
+            <value>Sonar_Ping_Final.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.5939583333333331</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{0efc9a5e-659b-43e0-959e-20c9552dbdc4}</destination>
+        </relationship>
+    </object>
+</objects>

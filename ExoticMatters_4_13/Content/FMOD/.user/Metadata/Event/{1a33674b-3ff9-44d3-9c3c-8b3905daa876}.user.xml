@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="Event" id="{1a33674b-3ff9-44d3-9c3c-8b3905daa876}">
+        <relationship name="selectables">
+            <destination>{6865aac3-7725-4f6c-8b92-68db7812603d}</destination>
+        </relationship>
+        <relationship name="uiLastParameterSelection">
+            <destination>{c371db24-93d6-4d1f-b624-713aa416a00c}</destination>
+        </relationship>
+    </object>
+    <object class="MasterTrack" id="{392f3fb9-1c10-48b3-8f35-010d46c948f6}"/>
+    <object class="MixerInput" id="{e9fe4754-b83f-4c5c-ac68-31445132aafd}"/>
+    <object class="EventAutomatableProperties" id="{e2c3ab2c-4328-47ab-8dc6-0d9a4d08ab91}"/>
+    <object class="MarkerTrack" id="{bf7d6a0a-2c64-41b8-a96d-2fb314a19640}"/>
+    <object class="GroupTrack" id="{0b79df12-79e8-46ab-88f8-6f95238e5c17}"/>
+    <object class="Timeline" id="{24d63c6b-6875-4a65-8661-b3487a117433}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.020774193548387093</value>
+        </property>
+    </object>
+    <object class="GameParameter" id="{c371db24-93d6-4d1f-b624-713aa416a00c}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.00064516129032258064</value>
+        </property>
+    </object>
+    <object class="EventMixerMaster" id="{525490c3-9e54-431e-b83c-bac9114baa3a}">
+        <relationship name="input">
+            <destination>{ff222a2c-4565-4b0d-909e-4185b15d9575}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{8fccf775-aa21-4b2a-801d-a9596e74726e}"/>
+    <object class="MixerBusPanner" id="{282e9979-026d-4014-8111-20dc639b98ca}"/>
+    <object class="MultiSound" id="{9ac1e90a-e85e-4c28-8706-c61bfe801d0c}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{6865aac3-7725-4f6c-8b92-68db7812603d}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="EventMixerGroup" id="{ff222a2c-4565-4b0d-909e-4185b15d9575}"/>
+    <object class="LoopRegion" id="{18c14e3b-2ce9-453a-ab32-09379f5a6295}"/>
+    <object class="MixerBusEffectChain" id="{606e21c6-76a5-4062-9443-28c2e8eca4f9}"/>
+    <object class="MixerBusPanner" id="{39650720-b1b8-49a2-ad73-dda3b6b482b5}"/>
+    <object class="MixerBusFader" id="{923fb45c-e904-407b-948d-2daa4efa42d2}"/>
+    <object class="RandomizerModulator" id="{3b1dd9cd-ba2b-4534-bfa4-99b06d9b61dc}"/>
+    <object class="RandomizerModulator" id="{01cb6e36-4ad4-4927-a09a-e6f4c5abb135}"/>
+    <object class="SingleSound" id="{d1d474ab-2e06-43f6-a62a-4423d50a2605}"/>
+    <object class="SingleSound" id="{c254a3c5-8684-4883-a3b1-39671fe334d4}"/>
+    <object class="SingleSound" id="{495a5d64-18a6-4fcb-aad8-f36f42de5afc}"/>
+    <object class="SingleSound" id="{13ae8f34-c4d4-4ceb-8cbf-e3f0e7c1b1bc}"/>
+    <object class="RandomizerModulator" id="{ba825f1f-48b5-4bdd-96fb-0ffd24494a7c}"/>
+    <object class="RandomizerModulator" id="{52bb19a0-f202-4b54-8005-88cce6103e65}"/>
+    <object class="SingleSound" id="{58ccc74d-134c-4623-8e41-4f20d76abda4}"/>
+    <object class="SingleSound" id="{7cbb1627-1952-48f2-86c2-0cfef4229737}"/>
+    <object class="MixerBusEffectChain" id="{e7ba3bc8-48de-4131-a441-eead77f45d75}"/>
+    <object class="MixerBusPanner" id="{f7074b26-32dc-4aba-b5ac-c057c4d20acc}"/>
+    <object class="ParameterCondition" id="{8e55c978-4d0b-4ccd-aa8a-d722b404d3cb}"/>
+    <object class="MixerBusFader" id="{c79a864f-f96d-4b4b-9b01-a515ee0a151d}"/>
+    <object class="SpatialiserEffect" id="{e085f53c-2902-489b-91eb-9a6ba296db28}"/>
+    <object class="MixerSend" id="{5b5cddfc-4498-440e-b3b4-f5e75765e903}"/>
+    <object class="MixerBusFader" id="{d256cc88-7348-4cf4-bb2b-43dbec451d87}"/>
+</objects>

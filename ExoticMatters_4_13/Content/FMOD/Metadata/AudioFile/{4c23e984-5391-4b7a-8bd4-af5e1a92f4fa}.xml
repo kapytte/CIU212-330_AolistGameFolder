@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{4c23e984-5391-4b7a-8bd4-af5e1a92f4fa}">
+        <property name="assetPath">
+            <value>KeyboardPanel_OpenPop_3.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.60575000000000001</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{0efc9a5e-659b-43e0-959e-20c9552dbdc4}</destination>
+        </relationship>
+    </object>
+</objects>
