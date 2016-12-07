@@ -1,8 +1,8 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 12/6/2016, 13:29:32
-             Machine name: PER-L5-19PC
+      Time of this report: 12/7/2016, 11:56:40
+             Machine name: PER-L5-18PC
          Operating System: Windows 10 Pro 64-bit (10.0, Build 10586) (10586.th2_release_sec.161024-1825)
                  Language: English (Regional Setting: English)
       System Manufacturer: System manufacturer
@@ -11,7 +11,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz (8 CPUs), ~3.4GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 13605MB used, 23941MB available
+                Page File: 6892MB used, 30654MB available
               Windows Dir: C:\Windows
           DirectX Version: 12
       DX Setup Parameters: Not found
@@ -266,13 +266,7 @@ Vendor/Product ID: n/a
 Vendor/Product ID: 0x1038, 0x1702
         FF Driver: n/a
 
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0314
-        FF Driver: n/a
-
-      Device Name: SteelSeries Rival 100 Gamin
+      Device Name: SteelSeries Rival 100 Gaming Mouse
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x1038, 0x1702
@@ -284,22 +278,10 @@ Vendor/Product ID: 0x1038, 0x1702
 Vendor/Product ID: 0x045E, 0x07F8
         FF Driver: n/a
 
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0314
-        FF Driver: n/a
-
       Device Name: Wired Keyboard 600
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x045E, 0x07F8
-        FF Driver: n/a
-
-      Device Name: Wacom Tablet
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x0314
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -364,26 +346,6 @@ USB Devices
 | | | | Service: kbdhid
 | | | | Driver: kbdhid.sys, 10/30/2015 15:17:23, 36864 bytes
 | | | | Driver: kbdclass.sys, 10/30/2015 15:17:23, 62304 bytes
-| | 
-+-+ Wacom Tablet
-| | Vendor/Product ID: 0x056A, 0x0314
-| | Location: Port_#0013.Hub_#0001
-| | Matching Device ID: USB\VID_056A&PID_0314
-| | Upper Filters: hidkmdf
-| | Service: WacHidRouterPro
-| | Driver: wachidrouter.sys, 3/3/2016 07:05:37, 102864 bytes
-| | Driver: hidkmdf.sys, 3/3/2016 07:05:37, 13776 bytes
-| | Driver: wdfcoinstaller01009.dll, 12/12/2012 06:12:00, 1721576 bytes
-| | 
-| +-+ HID-Compliant Mouse
-| | | Vendor/Product ID: 0x056A, 0x0314
-| | | Matching Device ID: HID\VID_056A&PID_0314&Col01
-| | | Upper Filters: wacomrouterfilter
-| | | Service: mouhid
-| | | Driver: wacomrouterfilter.sys, 3/3/2016 07:05:37, 14800 bytes
-| | | Driver: mouhid.sys, 10/30/2015 15:17:23, 32256 bytes
-| | | Driver: mouclass.sys, 10/30/2015 15:17:23, 59232 bytes
-| | | Driver: wdfcoinstaller01009.dll, 12/12/2012 06:12:00, 1721576 bytes
 
 ----------------
 Gameport Devices
@@ -397,22 +359,16 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 195.6 GB
+ Free Space: 105.9 GB
 Total Space: 476.4 GB
 File System: NTFS
       Model: Samsung SSD 850 EVO 500GB
 
       Drive: D:
- Free Space: 874.9 GB
+ Free Space: 953.5 GB
 Total Space: 953.7 GB
 File System: NTFS
       Model: WDC WD10EZEX-00WN4A0
-
-      Drive: F:
- Free Space: 927.8 GB
-Total Space: 953.8 GB
-File System: NTFS
-      Model: WD Elements 10B8 USB Device
 
       Drive: E:
       Model: ELBY CLONEDRIVE SCSI CdRom Device
@@ -1115,63 +1071,177 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket , type 0
+Fault bucket 8695249, type 4
 Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-
-P2: 4.12.0
-P3: 57bf7e7a
-P4: UE4Server-Core-Win64-Shipping.dll
-P5: 4.12.0
-P6: 57bf76ba
-P7: c0000005
-P8: 0000000000124D4C
-P9: !!AssertLog="Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-UT-Releases\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp] [Line: 303] #Non-agnostic games on cooked platforms require a uproject file be specified.#"
-P10: ++depot+UE4-UT-Releases!C:/UT4Server/Engine/Binaries/Win64/!Server!3101884
+P1: XBoxStat.exe
+P2: 1.20.146.0
+P3: 4ac3f515
+P4: XBoxStat.exe
+P5: 1.20.146.0
+P6: 4ac3f515
+P7: 40000015
+P8: 000000000002385e
+P9: 
+P10: 
 
 
 +++ WER1 +++:
 Fault bucket , type 0
-Event Name: APPCRASH
+Event Name: Ensure
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-EpicGamesLauncher
-P2: 2.12.8
-P3: 57bdc52b
+P1: UE4-ExoticMatters_4_13
+P2: 4.13.2
+P3: 580e5391
 P4: KERNELBASE.dll
 P5: 10.0.10586
-P6: 5775e4c5
+P6: 57cf948c
 P7: 00000001
 P8: 0000000000071F28
-P9: !"C:/Program Files (x86)/Epic Games/Launcher/./Portal/Binaries/Win64/EpicGamesLauncher.exe"  -SaveToUserDir -Messaging -ForcedRestart -SaveToUserDir -Messaging!AssertLog="Assertion failed: SUCCEEDED(Hr) [File:D:\BuildFarm\buildmachine_++Portal+Release-Live\En
-P10: ++Portal+Release-Live!C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/!Game!3099499
+P9: !"C:\Users\mpthompson\Desktop\CIU212-330_AolistGameFolder\ExoticMatters_4_13\ExoticMatters_4_13.uproject" !AssertLog="Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Engine\Pri
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3172292
 
 
 +++ WER2 +++:
 Fault bucket , type 0
-Event Name: APPCRASH
+Event Name: Crash
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: UE4-EpicGamesLauncher
-P2: 2.12.7
-P3: 57b4a5ba
-P4: KERNELBASE.dll
-P5: 10.0.10586
-P6: 571af331
-P7: 00000001
-P8: 0000000000071F28
-P9: !"C:/Program Files (x86)/Epic Games/Launcher/./Portal/Binaries/Win64/EpicGamesLauncher.exe"  -SaveToUserDir -Messaging -ForcedRestart -SaveToUserDir -Messaging!AssertLog="Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++Portal+Release-Live\Engine
-P10: ++Portal+Release-Live!C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/!Game!3092093
+P1: UE4-ExoticMatters_4_13
+P2: 4.13.2
+P3: 580e5391
+P4: UE4Editor-FMODStudioEditor.dll
+P5: 4.13.0
+P6: 57f3f1ff
+P7: c0000005
+P8: 000000000002335B
+P9: !"C:\Users\mpthompson\Desktop\CIU212-330_AolistGameFolder\ExoticMatters_4_13\ExoticMatters_4_13.uproject" !AssertLog=""
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3172292
 
 
 +++ WER3 +++:
+Fault bucket , type 0
+Event Name: Crash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: UE4-ExoticMatters_4_13
+P2: 4.13.2
+P3: 580e5391
+P4: UE4Editor-FMODStudioEditor.dll
+P5: 4.13.0
+P6: 57f3f1ff
+P7: c0000005
+P8: 000000000002335B
+P9: !"C:\Users\mpthompson\Desktop\CIU212-330_AolistGameFolder\ExoticMatters_4_13\ExoticMatters_4_13.uproject" !AssertLog=""
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3172292
+
+
++++ WER4 +++:
+Fault bucket , type 0
+Event Name: Ensure
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: UE4-ExoticMatters_4_13
+P2: 4.13.2
+P3: 580e5391
+P4: KERNELBASE.dll
+P5: 10.0.10586
+P6: 57cf948c
+P7: 00000001
+P8: 0000000000071F28
+P9: !"C:/Users/mpthompson/Desktop/CIU212-330_AolistGameFolder/ExoticMatters_4_13/ExoticMatters_4_13.uproject"-EpicPortal !AssertLog="Ensure condition failed: false [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Lin
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3172292
+
+
++++ WER5 +++:
+Fault bucket , type 0
+Event Name: Ensure
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: UE4-ExoticMatters_4_13
+P2: 4.13.2
+P3: 580e5391
+P4: KERNELBASE.dll
+P5: 10.0.10586
+P6: 57cf948c
+P7: 00000001
+P8: 0000000000071F28
+P9: !"C:\Users\mpthompson\Desktop\CIU212-330_AolistGameFolder\ExoticMatters_4_13\ExoticMatters_4_13.uproject" !AssertLog="Ensure condition failed: false [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilit
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3172292
+
+
++++ WER6 +++:
+Fault bucket , type 0
+Event Name: Crash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: UE4-MattDonnelly_GDS111
+P2: 4.13.2
+P3: 580e5391
+P4: UE4Editor-LevelEditor.dll
+P5: 4.13.2
+P6: 580e539f
+P7: c0000005
+P8: 000000000024C68A
+P9: !"F:/MattDonnelly_GDS111/MattDonnelly_GDS111.uproject"-EpicPortal !AssertLog=""
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3172292
+
+
++++ WER7 +++:
+Fault bucket , type 0
+Event Name: Ensure
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: UE4-ExoticMatters_4_13
+P2: 4.13.0
+P3: 57c6052c
+P4: KERNELBASE.dll
+P5: 10.0.10586
+P6: 57cf948c
+P7: 00000001
+P8: 0000000000071F28
+P9: !"C:/Users/kpytte/Documents/GitHub/CIU212-330_AolistGameFolder/ExoticMatters_4_13/ExoticMatters_4_13.uproject"-EpicPortal !AssertLog="Ensure condition failed: false [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\K
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3106830
+
+
++++ WER8 +++:
+Fault bucket , type 0
+Event Name: Ensure
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: UE4-ExoticMatters_4_13
+P2: 4.13.0
+P3: 57c6052c
+P4: KERNELBASE.dll
+P5: 10.0.10586
+P6: 57cf948c
+P7: 00000001
+P8: 0000000000071F28
+P9: !"C:/Users/kpytte/Documents/GitHub/CIU212-330_AolistGameFolder/ExoticMatters_4_13/ExoticMatters_4_13.uproject"-EpicPortal !AssertLog="Ensure condition failed: false [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\K
+P10: ++UE4+Release-4.13!C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/!Editor!3106830
+
+
++++ WER9 +++:
 Fault bucket , type 0
 Event Name: APPCRASH
 Response: Not available
@@ -1188,119 +1258,5 @@ P7: c0000005
 P8: 0000000000124D4C
 P9: !!AssertLog="Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-UT-Releases\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp] [Line: 303] #Non-agnostic games on cooked platforms require a uproject file be specified.#"
 P10: ++depot+UE4-UT-Releases!C:/UT4Server/Engine/Binaries/Win64/!Server!3101884
-
-
-+++ WER4 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: UE4-EpicGamesLauncher
-P2: 2.12.8
-P3: 57bdc52b
-P4: KERNELBASE.dll
-P5: 10.0.10586
-P6: 5775e4c5
-P7: 00000001
-P8: 0000000000071F28
-P9: !"C:/Program Files (x86)/Epic Games/Launcher/./Portal/Binaries/Win64/EpicGamesLauncher.exe"  -SaveToUserDir -Messaging -ForcedRestart -SaveToUserDir -Messaging!AssertLog="Assertion failed: SUCCEEDED(Hr) [File:D:\BuildFarm\buildmachine_++Portal+Release-Live\En
-P10: ++Portal+Release-Live!C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/!Game!3099499
-
-
-+++ WER5 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: UE4-EpicGamesLauncher
-P2: 2.12.7
-P3: 57b4a5ba
-P4: KERNELBASE.dll
-P5: 10.0.10586
-P6: 571af331
-P7: 00000001
-P8: 0000000000071F28
-P9: !"C:/Program Files (x86)/Epic Games/Launcher/./Portal/Binaries/Win64/EpicGamesLauncher.exe"  -SaveToUserDir -Messaging -ForcedRestart -SaveToUserDir -Messaging!AssertLog="Assertion failed: IsValid() [File:D:\BuildFarm\buildmachine_++Portal+Release-Live\Engine
-P10: ++Portal+Release-Live!C:/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win64/!Game!3092093
-
-
-+++ WER6 +++:
-Fault bucket 116232484719, type 5
-Event Name: BEX64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 3DO2.exe
-P2: 5.3.5.3775
-P3: 572f7e7b
-P4: nvoglv64.DLL
-P5: 21.21.13.7270
-P6: 57bf5548
-P7: 00000000015d502c
-P8: c0000409
-P9: 0000000000000007
-P10: 
-
-
-+++ WER7 +++:
-Fault bucket 129121324813, type 5
-Event Name: RADAR_PRE_LEAK_64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: Photoshop.exe
-P2: 17.0.0.88
-P3: 10.0.10586.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER8 +++:
-Fault bucket 116232484719, type 5
-Event Name: BEX64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 3DO2.exe
-P2: 5.3.5.3775
-P3: 572f7e7b
-P4: nvoglv64.DLL
-P5: 21.21.13.7270
-P6: 57bf5548
-P7: 00000000015d502c
-P8: c0000409
-P9: 0000000000000007
-P10: 
-
-
-+++ WER9 +++:
-Fault bucket 129140921341, type 5
-Event Name: RADAR_PRE_LEAK_64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 3DO2.exe
-P2: 5.3.5.3775
-P3: 10.0.10586.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
 
 
